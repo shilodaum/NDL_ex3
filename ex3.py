@@ -248,12 +248,12 @@ def part_i(text):
 
 def main():
     text = read('pride and prejudice.txt')
-    # tokens, counter = part_b(text)
-    # f_tokens, f_counter = part_c(tokens, counter)
-    # fp_tokens, fp_counter = part_c_punctuations(f_tokens, f_counter)
-    # fps_tokens, fps_counter = part_d(fp_tokens, fp_counter)
-    # tokens = part_e(text)
-    # pos_counter = part_g(text)
+    tokens, counter = part_b(text)
+    f_tokens, f_counter = part_c(tokens, counter)
+    fp_tokens, fp_counter = part_c_punctuations(f_tokens, f_counter)
+    fps_tokens, fps_counter = part_d(fp_tokens, fp_counter)
+    tokens = part_e(text)
+    pos_counter = part_g(text)
     part_i(text)
     # print(pos_counter)
 
